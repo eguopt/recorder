@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Recorder</string>
+
+    <!--Toast text-->
+    <string name="toast_started_record">已开始录音</string>
+    <string name="toast_paused_record">已暂停</string>
+    <string name="toast_resume_record">录音继续</string>
+    <string name="toast_filename_existed">文件名已存在</string>
+    <string name="toast_file_deleted">文件已删除</string>
+    
+    <!--record status text-->
+    <string name="record_status_text_recording">正在录音</string>
+    <string name="record_status_text_paused">已暂停，点击继续录音</string>
+    <string name="reocrd_status_text_click_to_record">点击开始录音</string>
+
+    <!--dialog text-->
+    <string name="dialog_item_rename">重命名</string>
+    <string name="dialog_item_delete">删除</string>
+    <string name="dialog_item_share">分享</string>
+    <string name="dialog_title">选项</string>
+    <string name="dialog_button_cancel">取消</string>
+    <string name="dialog_button_ok">确定</string>
+    <string name="dialog_button_save">保存</string>
+
+    <string name="rename_dialog_title">重命名文件</string>
+
+    <string name="delete_dialog_title">删除确认</string>
+    <string name="delete_dialog_message">确定要删除这条录音吗？</string>
+
+    <string name="share_dialog_title">发送</string>
+
+    <string-array name="quality_options_name">
+        <item>一般</item>
+        <item>高</item>
+    </string-array>
+
+    <string-array name="quality_options_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_setting"
+        android:title="设置" />
+
+    <item android:id="@+id/action_file_view"
+        android:title="文件" />
+
+</menu>

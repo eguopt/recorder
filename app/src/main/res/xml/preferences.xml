@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="recording_quality"
+        android:title="录音质量"
+        android:summary=""
+        android:dialogTitle="录音质量"
+        android:entries="@array/quality_options_name"
+        android:entryValues="@array/quality_options_value"
+        android:defaultValue="1"/>
+
+    <Preference
+        android:key="feedback"
+        android:title="反馈">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="mailto:chengsmo@outlook.com">
+            <extra android:name="android.intent.extra.SUBJECT" android:value="反馈"/>
+            <extra android:name="android.intent.extra.TEXT" android:value="输入反馈"/>
+        </intent>
+    </Preference>
+
+</PreferenceScreen>
